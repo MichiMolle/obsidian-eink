@@ -1,0 +1,141 @@
+.theme-light {
+    --interactive-accent: #000000 !important;
+    --text-accent: #000000;
+    --tag-background: #ffffff;
+    --titlebar-background: #ffffff;
+    --status-bar-border-width: 2px 0 0 2px;
+    --status-bar-text-color: #000000;
+    --modal-border-color: #000000;
+    --tag-border-color: #000000;
+    --modal-border-width: 2px;
+    --tag-border-width: 2px;
+    --nav-collapse-icon-color: #000000;
+    --nav-collapse-icon-color-collapsed: #000000;
+    --divider-color: #000000;
+    --icon-color: #000000;
+    --link-color: #000000;
+    --tag-color: #000000;
+    --icon-color-focused: #ffffff;
+    --link-color-hover: #000000;
+    --link-external-color: #000000;
+    --link-external-color-hover: #000000;
+    --text-faint: #000000;
+    --indentation-guide-color: #000000;
+    --nav-item-color: #000000;
+    --shadow-l: none;
+    --background-modifier-border: #000000;
+    --background-modifier-cover: none;
+    --text-normal: #000000;
+    --tab-outline-color: #000000;
+    --tab-outline-width: 2px;
+    --background-primary: #ffffff;
+    --tab-radius-active: 0;
+    --shadow-s: none;
+    --background-secondary: #ffffff;
+    --input-shadow: none;
+    --tab-text-color-focused-active: #000000;
+    --tab-text-color-focused-active-current: #ffffff;
+    --divider-width: 2px;
+}
+
+.clickable-icon.is-active {
+    background-color: #ffffff;
+    border: 2px solid #000000;
+    color: #000000;
+}
+
+.nav-file-title, .nav-folder-title {
+    border: 2px solid #ffffff;
+}
+
+.nav-file-title:hover, .nav-folder-title:hover {
+    background-color: #ffffff !important;
+    border: 2px solid #000000;
+}
+
+.nav-file-title.is-active {
+    background-color: #000000 !important;
+    border: 2px solid #000000;
+    color: #ffffff !important;
+}
+
+.workspace-tab-header.is-active {
+    background-color: #000000 !important;
+    border: 2px solid #000000;
+}
+
+.workspace-tab-header {
+    background-color: #ffffff !important;
+    border: 2px solid #ffffff;
+}
+
+.workspace-tab-header:hover {
+    background-color: #ffffff !important;
+    border: 2px solid #000000;
+    color: #000000 !important;
+}
+
+.workspace-tab-header::before, .workspace-tab-header::after {
+    border-radius: 0;
+}
+
+.mod-root .workspace-tab-header.is-active {
+    background-color: #ffffff !important;
+    border: 2px solid black;
+    border-bottom: none;
+    border-radius: 2px 0 2px 0 !important;
+    box-shadow: none;
+}
+
+.mod-root .workspace-tab-header.is-active .workspace-tab-header-inner-title {
+    color: #000000 !important;
+}
+
+.mod-left .workspace-tab-header:hover {
+    border: 2px solid #000000;
+}
+
+.mod-root .workspace-tab-header {
+    border: none;
+    border-bottom: 2px solid #000000;
+}
+
+.mod-root .workspace-tab-header:hover {
+    background-color: #ffffff !important;
+    border-bottom: 2px solid #000000;
+    font-weight: bold;
+}
+
+.mod-root .workspace-tab-header.is-active:hover {
+    border: 2px solid #000000;
+    border-bottom: none;
+}
+
+.titlebar-button-container {
+    border-bottom: 1px solid #000000;
+}
+
+.menu {
+    border: 2px solid #000000;
+}
+
+button {
+    border: 2px solid #000000;
+}
+
+.view-header-nav-buttons button {
+    border: none;
+}
+
+.empty-state-action {
+    text-decoration: underline;
+}
+
+.workspace .mod-root .workspace-tab-header-inner::after {
+    width: 0;
+}
+
+.horizontal-tab-nav-item.is-active, .vertical-tab-nav-item.is-active {
+    background-color: #000000;
+    color: #ffffff;
+}
